@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>firstform</title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>profile</legend>
+					username:<input type = "text" name = "username" tabindex = "1" pattern = "[a-zA-Z0-9]*" title = "please enter text or number" required><br>
+					<br>
+					password:<input type = "password" name = "password" maxlength = "8" tabindex = "2" pattern = "[a-zA-Z0-9]*" title = "please enter text or number" required><br>
+			</fieldset>
+					<br>
+			<fieldset>
+
+				<legend>sex</legend>
+					<input name = "sex" type = "radio" value = "male">man
+					<input name = "sex" type = "radio" value = "female">female<br>
+					<br>
+
+				<legend>test</legend>
+					<input name = "test" type = "checkbox" value = "test1">test1<br>
+					<input name = "test" type = "checkbox" value = "test2">test2<br>
+					<input name = "test" type = "checkbox" value = "test3">test3<br>
+
+			</fieldset>
+					<br>
+
+			<fieldset>
+				<legend>test2</legend>
+					<select name = "test2" size = "4" multiple>
+						<option value = "1" selected>test1
+						<option value = "2">test2
+						<option value = "3">test3
+						<option value = "4">test4
+					</select><br>
+					<br>
+			</fieldset>
+			<br>
+
+			<fieldset>
+					<lengend>commnet</lengend>
+						<textarea name = "other" row = "5" cols = "20" wrap = "on">
+default
+						</textarea>
+						<br>
+			</fieldset>
+			<br>
+			
+			<input type = "submit" value = "submit">
+			<input type = "reset" value = "reset"><br>
+		</form>
+	</body>
+</html>
